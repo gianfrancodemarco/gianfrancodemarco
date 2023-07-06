@@ -30,7 +30,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_repositories: yes
-          plugin_projects_repositories: gianfrancodemarco/plate-recognition,gianfrancodemarco/vollAIball,gianfrancodemarco/mm-cot
+          plugin_repositories_featured: gianfrancodemarco/plate-recognition,gianfrancodemarco/vollAIball,gianfrancodemarco/mm-cot
       
       - name: Generate topics
         with: 
