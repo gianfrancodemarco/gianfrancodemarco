@@ -12,14 +12,35 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: gianfrancodemarco/metrics@master
+      - name: Generate base
+        with:
+          # Options
+          user: gianfrancodemarco
+          template: classic
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          config_timezone: Europe/Rome
+          filename: metrics.base.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+      - name: Generate repositories
+        uses: gianfrancodemarco/metrics@master
         with:
           filename: metrics.plugin.repositories.pinned.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_repositories: yes
           plugin_projects_repositories: gianfrancodemarco/plate-recognition,gianfrancodemarco/vollAIball,gianfrancodemarco/mm-cot
-        
+      
+      - name: Generate topics
+        with: 
+          filename: metrics.plugin.topics.icons.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+
       - uses: gianfrancodemarco/metrics@master
         with:
           # Your GitHub token
@@ -31,13 +52,6 @@ jobs:
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          user: gianfrancodemarco
-          template: classic
-          base: header, activity, community, repositories, metadata
-          base_indepth: yes
-          config_timezone: Europe/Rome
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_secrets: yes
