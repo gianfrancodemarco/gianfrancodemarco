@@ -12,6 +12,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: gianfrancodemarco/metrics@main
+      - uses: gianfrancodemarco/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
