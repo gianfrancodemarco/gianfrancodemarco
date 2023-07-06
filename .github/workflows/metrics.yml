@@ -13,6 +13,7 @@ jobs:
       contents: write
     steps:
       - name: Generate base
+        uses: gianfrancodemarco/metrics@master
         with:
           # Options
           user: gianfrancodemarco
@@ -33,7 +34,8 @@ jobs:
           plugin_repositories_featured: gianfrancodemarco/plate-recognition,gianfrancodemarco/vollAIball,gianfrancodemarco/mm-cot
       
       - name: Generate topics
-        with: 
+        uses: gianfrancodemarco/metrics@master
+        with:   
           filename: metrics.plugin.topics.icons.svg
           token: NOT_NEEDED
           base: ""
@@ -41,7 +43,8 @@ jobs:
           plugin_topics_limit: 0
           plugin_topics_mode: icons
 
-      - uses: gianfrancodemarco/metrics@master
+      - name: Generate remainder
+        uses: gianfrancodemarco/metrics@master
         with:
           # Your GitHub token
           # The following scopes are required:
