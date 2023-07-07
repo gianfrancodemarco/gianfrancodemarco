@@ -12,17 +12,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate base
-        uses: gianfrancodemarco/metrics@master
-        with:
-          # Options
-          user: gianfrancodemarco
-          template: classic
-          base: header, activity, community, repositories, metadata
-          base_indepth: yes
-          config_timezone: Europe/Rome
-          filename: metrics.base.svg
-          token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Generate repositories
         uses: gianfrancodemarco/metrics@master
@@ -43,7 +32,7 @@ jobs:
           plugin_topics_limit: 0
           plugin_topics_mode: labels
 
-      - name: Generate remainder
+      - name: Generate base
         uses: gianfrancodemarco/metrics@master
         with:
           # Your GitHub token
@@ -55,7 +44,7 @@ jobs:
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.base.rest.svg
+          filename: metrics.base.svg
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_secrets: yes
