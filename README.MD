@@ -11,8 +11,14 @@ This includes building models with renowned libraries like TensorFlow, PyTorch a
 
 🔄 I'm also actively engaged in practicing CI/CD, as well as deploying and monitoring models and applications.
 
-Feel free to explore my GitHub portfolio, where you'll find a lot of unfinished efforts 😬 and some end to end projects.  
-You may even find *The Answer to the Ultimate Question of Life, the Universe, and Everything* hidden somewhere.
+<br>
+
+📊 Feel free to explore my GitHub portfolio, where you'll find a lot of unfinished efforts 😬 and some end to end projects.  
+You may even find *The Answer to the Ultimate Question of Life, the Universe, and Everything* hidden somewhere. 🥷
+
+<br>
+<br>
+
 
 <div style="text-align:center">
   <img align="center" src="/metrics.base.svg" alt="Metrics" width="50%">
