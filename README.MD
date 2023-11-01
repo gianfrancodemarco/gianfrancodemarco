@@ -1,6 +1,6 @@
 <h1> Hello there! </h1>
 
-👋 Hello! I'm Gianfranco Demarco, a 23-year-old Software Engineer deeply passionate about Artificial Intelligence.
+👋 Hello! I'm Gianfranco Demarco, a 24-year-old Software Engineer deeply passionate about Artificial Intelligence.
 
 📘 Currently, I'm pursuing a Master's Degree in Artificial Intelligence while working a full-time role as a Software Engineer.
 
