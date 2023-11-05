@@ -21,7 +21,7 @@ You may even find *The Answer to the Ultimate Question of Life, the Universe, an
 
 
 <p align="center">
-  <img align="center" src="/metrics.base.svg" alt="Metrics" width="50%">
-  <img align="center" src="/metrics.plugin.topics.svg" alt="Metrics" width="50%">
-  <!--<img align="center" src="/metrics.plugin.repositories.pinned.svg" alt="Metrics" width="50%">-->
+  <img align="center" src="/metrics.base.svg" alt="Metrics" width="75%">
+  <img align="center" src="/metrics.plugin.topics.svg" alt="Metrics" width="75%">
+  <!--<img align="center" src="/metrics.plugin.repositories.pinned.svg" alt="Metrics" width="75%">-->
 </p>
