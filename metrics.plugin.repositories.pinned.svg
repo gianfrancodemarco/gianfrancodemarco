@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="378" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="428" class="">
     <defs>
         <style/>
     </defs>
@@ -24,10 +24,10 @@
                                     </svg>
                                     <div class="name">
                                         <span>gianfrancodemarco/price-oracle</span>
-                                        <span>created 23 days ago</span>
+                                        <span>created 24 days ago</span>
                                     </div>
                                 </div>
-                                <div class="field description">Big Data exam</div>
+                                <div class="field description">Price Oracle is an end-to-end solution for monitoring and predicting the price of criptocurrencies. It is composed of data ingestion pipelines leveraging Apache Airflow, an Apache Cassandra database, machine learning models built with TensorFlow and a front-end built with Grafana.</div>
                                 <div class="field infos">
                                     <div class="language">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
