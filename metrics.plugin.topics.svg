@@ -29,8 +29,8 @@
                             <div class="label" title="TensorFlow is an open source software library for numerical computation.">tensorflow</div>
                             <div class="label" title="PostgreSQL is an open source database system.">postgresql</div>
                             <div class="label" title="A representational state transfer (REST) API is a way to provide compatibility between computer systems on the internet.">rest api</div>
-                            <div class="label" title="Natural language processing (NLP) is the study of how computers and humans interact.">natural language processing</div>
                             <div class="label" title="scikit-learn is a Python module for machine learning.">scikit-learn</div>
+                            <div class="label" title="Natural language processing (NLP) is the study of how computers and humans interact.">natural language processing</div>
                             <div class="label" title="Haskell is a functional programming language with non-strict semantics, and strong static typing.">haskell</div>
                             <div class="label" title="Artificial neural network is a computational model based on the structure and functions of biological neural networks.">neural network</div>
                             <div class="label" title="PyTorch is an open source machine learning library.">pytorch</div>
