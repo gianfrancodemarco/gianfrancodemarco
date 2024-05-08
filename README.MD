@@ -2,18 +2,18 @@
 
 👋 Hello! I'm Gianfranco Demarco, a 24-year-old Software Engineer deeply passionate about Artificial Intelligence.
 
-📘 Currently, I'm pursuing a Master's Degree in Artificial Intelligence while working a full-time role as a Software Engineer.
+📘 I've graduated from my master's degree in Artificial Intelligence with a thesis on Chatbots and Langchain.
 
 💼 I come with a comprehensive background in both frontend and backend development, coupled with proficiency in database management. 
 
 🧠 However, lately I'm dedicated *head and fingers* to the world of Machine Learning, experimenting with every aspect of the field.  
-This includes building models with renowned libraries like TensorFlow, PyTorch and HuggingFace, as well as effectively managing the software and experiments lifecycle using tools such as MLFlow, DVC and Dagshub.  
+This includes building models with renowned libraries like TensorFlow, PyTorch, and HuggingFace, as well as effectively managing the software and experiments lifecycle using tools such as MLFlow, DVC, and Dagshub.  
 
 🔄 I'm also actively engaged in practicing CI/CD, as well as deploying and monitoring models and applications.
 
 <br>
 
-📊 Feel free to explore my GitHub portfolio, where you'll find a lot of unfinished efforts 😬 and some end to end projects.  
+📊 Feel free to explore my GitHub portfolio, where you'll find a lot of unfinished efforts 😬 and some end-to-end projects.  
 You may even find *The Answer to the Ultimate Question of Life, the Universe, and Everything* hidden somewhere. 🥷
 
 <br>
