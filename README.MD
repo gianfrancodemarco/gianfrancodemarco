@@ -1,6 +1,6 @@
 <h1> Hello there! </h1>
 
-👋 Hello! I'm Gianfranco, a 25-year-old AI & Data Engineer deeply passionate about Artificial Intelligence.
+👋 Hello! I'm Gianfranco, a 25-year-old Data & AI Engineer deeply passionate about Artificial Intelligence.
 
 📘 I've graduated from my master's degree in Artificial Intelligence with a thesis on Chatbots and Langchain.
 
